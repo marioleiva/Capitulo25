@@ -10,7 +10,10 @@ namespace Solucion25
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mario");
+            Console.WriteLine("Mario Desarrollo 2");
+            Console.WriteLine("Ingrese un numero");
+            string valor;
+            valor = Console.ReadLine();
             Console.ReadKey();
         }
     }
