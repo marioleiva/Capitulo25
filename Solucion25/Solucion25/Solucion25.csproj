@@ -43,11 +43,93 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab24_\lab01\conexion.cs" />
+    <Compile Include="Lab24_\lab01\curso.cs" />
+    <Compile Include="Lab24_\lab01\Form1.cs" />
+    <Compile Include="Lab24_\lab01\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab24_\lab01\frmAgregar.cs" />
+    <Compile Include="Lab24_\lab01\frmAgregar.Designer.cs">
+      <DependentUpon>frmAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab24_\lab01\frmAgregarProfesor.cs" />
+    <Compile Include="Lab24_\lab01\frmAgregarProfesor.Designer.cs">
+      <DependentUpon>frmAgregarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab24_\lab01\frmEditar.cs" />
+    <Compile Include="Lab24_\lab01\frmEditar.Designer.cs">
+      <DependentUpon>frmEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab24_\lab01\FrmEditarProfesor.cs" />
+    <Compile Include="Lab24_\lab01\FrmEditarProfesor.Designer.cs">
+      <DependentUpon>FrmEditarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab24_\lab01\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Lab24_\lab01\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Lab24_\lab01\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Lab24_\lab01\Profesor.cs" />
+    <Compile Include="Lab24_\lab01\Program.cs" />
+    <Compile Include="Lab24_\lab01\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lab24_\lab01\Properties\Resources.Designer.cs" />
+    <Compile Include="Lab24_\lab01\Properties\Settings.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Lab24_\lab01\.vs\ProyWin_Lab24\v14\_suo.doc" />
+    <None Include="Lab24_\lab01\.vs\ProyWin_Lab24\v15\Server\sqlite3\db.lock" />
+    <None Include="Lab24_\lab01\.vs\ProyWin_Lab24\v15\Server\sqlite3\storage.ide" />
+    <None Include="Lab24_\lab01\App.config" />
+    <None Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.exe.config" />
+    <None Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.vshost.exe.config" />
+    <None Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.vshost.exe.manifest" />
+    <None Include="Lab24_\lab01\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Lab24_\lab01\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.csproj.CoreCompileInputs.cache" />
+    <None Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.csproj.GenerateResource.cache" />
+    <None Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.csprojAssemblyReference.cache" />
+    <None Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.csprojResolveAssemblyReference.cache" />
+    <None Include="Lab24_\lab01\Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Lab24_\lab01\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab24_\lab01\frmAgregar.resx">
+      <DependentUpon>frmAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab24_\lab01\frmAgregarProfesor.resx">
+      <DependentUpon>frmAgregarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab24_\lab01\frmEditar.resx">
+      <DependentUpon>frmEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab24_\lab01\FrmEditarProfesor.resx">
+      <DependentUpon>FrmEditarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.Form1.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.frmAgregar.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.frmAgregarProfesor.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.frmEditar.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.FrmEditarProfesor.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.Properties.Resources.resources" />
+    <EmbeddedResource Include="Lab24_\lab01\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.exe" />
+    <Content Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.pdb" />
+    <Content Include="Lab24_\lab01\bin\Debug\ProyWin_Lab24.vshost.exe" />
+    <Content Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.csproj.FileListAbsolute.txt" />
+    <Content Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.exe" />
+    <Content Include="Lab24_\lab01\obj\Debug\ProyWin_Lab24.pdb" />
+    <Content Include="Lab24_\lab01\ProyWin_Lab24.csproj" />
+    <Content Include="Lab24_\lab01\ProyWin_Lab24.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab24_\lab01\bin\Release\" />
+    <Folder Include="Lab24_\lab01\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
